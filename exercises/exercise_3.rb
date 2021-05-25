@@ -6,3 +6,11 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+puts Store.count
+
+@store3 = Store.last
+p @store3
+
+@store3.destroy
+
+puts Store.count

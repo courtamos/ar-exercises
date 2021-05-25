@@ -5,7 +5,6 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
-
 @store1 = Store.first
 p @store1
 
